@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "233896121264",
+    "project_id": "wifiauthentication-157f7",
+    "storage_bucket": "wifiauthentication-157f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233896121264:android:d4408dc007f64d0433bc75",
+        "android_client_info": {
+          "package_name": "com.example.wifiauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233896121264-g8odi4lnv9fg3cpm5ig7kijt02gppmli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY8aVXqrZ0t3VHpWU4iEzWDnfBEzzrKRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233896121264-g8odi4lnv9fg3cpm5ig7kijt02gppmli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

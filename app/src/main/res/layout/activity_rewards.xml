@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#28DFDBDB"
+    tools:context=".MyAccount">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:gravity="center"
+                android:text="Back"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Rewards"
+                android:layout_marginEnd="32dp"
+                android:textColor="#ED222121"
+                android:textSize="22sp"></TextView>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/horizontal_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/appbar_layout">
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/linear"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+     <RelativeLayout
+         android:id="@+id/relative"
+         android:layout_width="80dp"
+         android:layout_height="150dp"
+         android:gravity="center"
+         android:layout_gravity="center"
+        >
+
+         <TextView
+             android:id="@+id/tv_circle"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_above="@+id/tv_silver"
+             android:background="@drawable/tvcircle"
+             android:gravity="center"
+             android:layout_marginStart="10dp"
+             android:text="1"
+             android:textColor="#004d40"
+             android:textSize="22sp">
+
+         </TextView>
+         <TextView
+             android:id="@+id/tv_silver"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Silver Card"
+             android:layout_alignParentBottom="true"
+             android:textColor="#004d40"
+             android:textSize="15sp">
+
+         </TextView>
+
+         <ImageView
+             android:id="@+id/imageVieww"
+             android:layout_width="30dp"
+             android:layout_height="25dp"
+             android:layout_marginEnd="22dp"
+             android:layout_marginBottom="74dp"
+             android:layout_alignParentEnd="true"
+             android:layout_alignParentBottom="true"
+             android:layout_gravity="center"
+             android:padding="5dp"
+             android:src="@drawable/rwards"
+            android:background="#004d40" />
+
+     </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/linear1"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+            <RelativeLayout
+                android:id="@+id/relative2"
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/tv_circle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/tv_silver2"
+                    android:background="@drawable/tvcircle"
+                    android:gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:text="2"
+                    android:textColor="@color/black"
+                    android:textSize="22sp">
+
+                </TextView>
+                <TextView
+                    android:id="@+id/tv_silver2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gold Card"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="#ffab00"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_marginEnd="22dp"
+                    android:layout_marginBottom="74dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="5dp"
+                    android:src="@drawable/rwards"
+                    android:layout_gravity="center"
+                    android:background="#ffab00" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/linear2"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+            <RelativeLayout
+                android:id="@+id/relative1"
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/tv_circle3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/tv_silver3"
+                    android:background="@drawable/tvcircle"
+                    android:gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:text="3"
+                    android:textColor="@color/black"
+                    android:textSize="22sp">
+
+                </TextView>
+                <TextView
+                    android:id="@+id/tv_silver3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bronze card"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="#dd2c00"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_marginEnd="22dp"
+                    android:layout_marginBottom="74dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="5dp"
+                    android:src="@drawable/rwards"
+                    android:layout_gravity="center"
+                    android:background="#dd2c00" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/horizontal_linearLayout"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn"
+        android:text="Dec"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tv_noreword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_marginTop="10dp"
+        android:paddingStart="50dp"
+        android:gravity="center"
+        android:text="No rewords for this month"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv_noreword"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn"
+        android:text="Nov"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_below="@id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button3"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="3dp">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="#dd2c00"
+                    android:padding="5dp"
+                    android:src="@drawable/rwards" />
+
+                <TextView
+                    android:id="@+id/tv_silver4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:text="Bronze card"
+                    android:textColor="#dd2c00"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_silver5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Good"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="3dp">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="#dd2c00"
+                    android:padding="5dp"
+                    android:src="@drawable/rwards" />
+
+                <TextView
+                    android:id="@+id/tv_silver7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:text="Bronze card"
+                    android:textColor="#dd2c00"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_silver9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Good"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button3"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="3dp">
+
+                <ImageView
+                    android:id="@+id/imagiew8"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="#ffab00"
+                    android:padding="5dp"
+                    android:src="@drawable/rwards" />
+
+                <TextView
+                    android:id="@+id/tv_silve"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:text="Bronze card"
+                    android:textColor="#ffab00"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_silv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BEST"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="3dp">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="#ffab00"
+                    android:padding="5dp"
+                    android:src="@drawable/rwards" />
+
+                <TextView
+                    android:id="@+id/tv_silver10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:text="Bronze card"
+                    android:textColor="#ffab00"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_silver6"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:text="JAI HO "
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="3dp"
+                android:orientation="vertical"
+               >
+
+                <ImageView
+                    android:id="@+id/imagie"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="#dd2c00"
+                    android:padding="5dp"
+                    android:src="@drawable/rwards" />
+
+                <TextView
+                    android:id="@+id/tv_sie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:text="Bronze card"
+                    android:textColor="#dd2c00"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_sil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SUPERB!!!"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1.9"
+                android:gravity="center"
+                android:padding="3dp"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:id="@+id/ima"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                 />
+
+                <TextView
+                    android:id="@+id/tv_si"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

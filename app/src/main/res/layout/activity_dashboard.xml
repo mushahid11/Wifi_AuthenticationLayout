@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome to DashBoard" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/purple_500"
+        android:layout_below="@id/textView3"
+        android:layout_weight="1"
+        android:text="Dummy" />
+
+    <TextView
+        android:id="@+id/uid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/purple_500"
+        android:gravity="center"
+        android:text="Dummy" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uid"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="logout"
+        android:text="Log out" />
+
+</RelativeLayout>

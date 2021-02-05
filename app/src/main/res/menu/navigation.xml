@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="Home"
+        />
+
+    <item android:id="@+id/detail"
+        android:icon="@drawable/detail"
+        android:title="Punch Details"
+        />
+
+    <item android:id="@+id/apply"
+        android:icon="@drawable/icons"
+        android:title="Apply Leaves"
+        />
+    <item android:id="@+id/setting"
+        android:icon="@drawable/ic_baseline_beach_access_24"
+        android:title="Leave History"
+        />
+
+
+</menu>
